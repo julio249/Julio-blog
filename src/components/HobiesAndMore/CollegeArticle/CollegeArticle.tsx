@@ -1,4 +1,5 @@
 import styles from './CollegeArticle.module.sass'
+import Image from 'next/image'
 
 export const CollegeArticle: React.FC = () => {
     return (
@@ -11,57 +12,57 @@ export const CollegeArticle: React.FC = () => {
             <div className={styles.container}>
                 {/* <h2>England</h2> */}
                 <div className={styles.slider}>
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college7.jpg" 
                         alt="Cinque Terre"
                         width='600'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college6.jpg" 
                         alt="Cinque Terre"
                         width='250'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college1.jpg" 
                         alt="Cinque Terre"
                         width='250'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college5.jpg" 
                         alt="Cinque Terre"
                         width='250'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college2.jpg" 
                         alt="Cinque Terre"
                         width='250'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college3.jpg" 
                         alt="Cinque Terre"
                         width='250'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college4.jpg" 
                         alt="Cinque Terre"
                         width='250'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college5.jpg" 
                         alt="Cinque Terre"
                         width='250'
@@ -69,8 +70,8 @@ export const CollegeArticle: React.FC = () => {
                         />
                     
                     
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/College/college8.jpg" 
                         alt="Cinque Terre"
                         width='250'

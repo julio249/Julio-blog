@@ -1,4 +1,5 @@
 import styles from './TravelArticle.module.sass'
+import Image from 'next/image'
 
 export const TravelArticle: React.FC = () => {
     return (
@@ -13,36 +14,36 @@ export const TravelArticle: React.FC = () => {
             <div className={styles.container}>
                 <h2>England</h2>
                 <div className={styles.slider}>
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/Travel/england1.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/Travel/england2.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                         />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/Travel/england3.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                     />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/Travel/england4.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                     />
-                    <img 
-                        className={styles.slider__img}
+                    <Image 
+                        className={styles.slider__Image}
                         src="/images/Travel/england5.jpg" 
                         alt="Cinque Terre"
                         width='600'
@@ -55,25 +56,25 @@ export const TravelArticle: React.FC = () => {
             <div className={styles.container}>
                 <h2>Netherlands</h2>
                 <div className={styles.slider}>
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/NL4.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                         />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/NL1.jpg" 
                         alt="Cinque Terre"
                         width='900'
                         height='500'
                         />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/NL3.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                     />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/NL2.jpg" 
                         alt="Cinque Terre"
                         width='900'
@@ -86,13 +87,13 @@ export const TravelArticle: React.FC = () => {
             <div className={styles.container}>
                 <h2>France</h2>
                 <div className={styles.slider}>
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/FNCE1.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                         />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/FNCE2.jpg" 
                         alt="Cinque Terre"
                         width='300'
@@ -103,25 +104,25 @@ export const TravelArticle: React.FC = () => {
             <div className={styles.container}>
                 <h2>United States</h2>
                 <div className={styles.slider}>
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/US1.jpg" 
                         alt="Cinque Terre"
                         width='360'
                         height='500'
                         />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/US2.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                         />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/US3.jpg" 
                         alt="Cinque Terre"
                         width='300'
                         height='500'
                         />
-                    <img className={styles.slider__img}
+                    <Image className={styles.slider__Image}
                         src="/images/Travel/US4.jpg" 
                         alt="Cinque Terre"
                         width='300'

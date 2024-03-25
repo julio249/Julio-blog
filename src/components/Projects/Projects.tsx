@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './Projects.module.sass'
+import Image from 'next/image'
 
 export const Projects = () => {
 
@@ -15,7 +16,7 @@ export const Projects = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 > 
-                    <img 
+                    <Image 
                         src="/images/store.png" 
                         alt="Project 1" 
                         width='300'
@@ -30,7 +31,7 @@ export const Projects = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <Image 
                         src="/images/dasthub.png" 
                         alt="Project 3" 
                         width='300'
@@ -46,7 +47,7 @@ export const Projects = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <Image 
                         src="/images/Mario.png" 
                         alt="Project 3" 
                         width='300'
@@ -61,7 +62,7 @@ export const Projects = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <Image 
                         src="/images/TODOMachine.png" 
                         alt="Project 2" 
                         width='300'
@@ -76,7 +77,7 @@ export const Projects = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <Image 
                         src="/images/car.png" 
                         alt="Project 3" 
                         width='300'
@@ -90,7 +91,7 @@ export const Projects = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <Image 
                         src="/images/segment_intersection.png" 
                         alt="Project 3" 
                         width='300'

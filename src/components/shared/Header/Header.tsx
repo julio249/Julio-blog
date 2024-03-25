@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './Header.module.sass'
-
+import Image from 'next/image'
 
 export const Header = () => {
 
@@ -25,7 +25,7 @@ export const Header = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            <img width="38" height="38" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/>
+                            <Image width="38" height="38" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/>
                               Linked in
                         </Link>
                         <a 
@@ -33,7 +33,7 @@ export const Header = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            <img width="38" height="38" src="https://img.icons8.com/arcade/64/new-post--v1.png" alt="new-post--v1"/>
+                            <Image width="38" height="38" src="https://img.icons8.com/arcade/64/new-post--v1.png" alt="new-post--v1"/>
                               Email
                         </a>
                         <a 
@@ -41,7 +41,7 @@ export const Header = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/1A1A1A/github.png" alt="github"/>
+                            <Image width="50" height="50" src="https://img.icons8.com/ios-filled/50/1A1A1A/github.png" alt="github"/>
                             GitHub
                         </a>
                         <a 
@@ -49,7 +49,7 @@ export const Header = () => {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            <img width="48" height="48" src="https://img.icons8.com/fluency/48/discord-logo.png" alt="discord-logo"/>
+                            <Image width="48" height="48" src="https://img.icons8.com/fluency/48/discord-logo.png" alt="discord-logo"/>
                               Discord
                         </a>
                     </div>

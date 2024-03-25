@@ -26,12 +26,12 @@ export const Categories = () => {
 
     useEffect(() => {
         const gridItems = document.querySelectorAll(`.${styles.grid__item}`);
-        gridItems.forEach((item, index) => {
+        gridItems.forEach((item: HTMLElement, index) => { // Explicitly cast item to HTMLElement
             // Delay animation for each item to create a staggered effect
-            item.style.animationDelay = `${index * 0.5}s`;
+            item.style.animationDelay = `${index * 0.5}s`; // Use style instead of styles
         });
     }, []);
-
+    
 
     return(
         <div className={styles.grid}>

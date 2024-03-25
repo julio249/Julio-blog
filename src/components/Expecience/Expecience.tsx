@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './Expecience.module.sass'
+import Image from 'next/image'
 
 
 export const Expecience =() => {
@@ -14,7 +15,7 @@ export const Expecience =() => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <img 
+                    <Image 
                         src="/images/intern.png" 
                         alt="" 
                         width='300'
@@ -23,7 +24,7 @@ export const Expecience =() => {
                     <p>Intern</p>
                 </Link>
                 <div className={styles.experienceSection__item}>
-                    <img 
+                    <Image 
                         src="/images/callCenter.png" 
                         alt="" 
                         width='300'
@@ -39,7 +40,7 @@ export const Expecience =() => {
                     rel="noopener noreferrer"
                 >
                 
-                    <img 
+                    <Image 
                         src="/images/researchAssistant.png" 
                         alt="" 
                         width='300'
@@ -49,7 +50,7 @@ export const Expecience =() => {
                 </Link>
                 <div className={styles.experienceSection__item}>
                 
-                    <img 
+                    <Image 
                         src="/images/studentAmbassor.png" 
                         alt="" 
                         width='300'
@@ -58,7 +59,7 @@ export const Expecience =() => {
                     <p>Student Ambassor</p>
                 </div>
                 <div className={styles.experienceSection__item}>
-                    <img 
+                    <Image 
                         src="/images/foodService.png" 
                         alt="" 
                         width='300'
