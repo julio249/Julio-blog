@@ -1,0 +1,1 @@
+export { CollegeArticle } from './CollegeArticle'

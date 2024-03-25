@@ -1,0 +1,1 @@
+export { GalleryArticle } from './GalleryArticle'

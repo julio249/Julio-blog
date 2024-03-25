@@ -1,0 +1,33 @@
+.container
+    max-width: 1300px
+    margin: 5rem auto
+    padding: 20px
+    border: 2px
+    border-radius: 60px
+    background-color: rgba(0, 0, 0, 0.2)
+    align-items: center
+    justify-content: center
+    &__row
+        display: flex
+        flex-wrap: wrap
+        padding: 0 4px
+
+    &__column
+        align-items: center
+        justify-content: center
+        flex: 25%
+        max-width: 40%
+        padding: 0 4px
+        img
+            margin-top: 8px
+            vertical-align: middle
+            width: 100%
+
+@media screen and (max-width: 800px)
+    .column
+        flex: 50%
+        max-width: 50%
+@media screen and (max-width: 600px)
+    .column
+        flex: 100%
+        max-width: 100%

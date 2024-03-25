@@ -1,0 +1,1 @@
+export { TravelArticle } from './TravelArticle'

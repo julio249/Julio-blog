@@ -1,0 +1,66 @@
+.Header
+    display: flex
+    flex-flow: row nowrap
+    align-items: center
+    justify-content: center
+    padding: 0 2rem
+    background: rgba(0, 0, 0, 0.2)
+    height: 10vh
+    width: 100vw
+    position: relative
+    font-size: 20px
+
+    &__list
+        display: flex
+        flex-flow: row nowrap
+        list-style: none
+        column-gap: 2.5rem
+        justify-content: center
+
+    &__Home
+        position: relative
+        cursor: pointer
+        text-decoration: none
+        color: inherit
+    &__contact
+        position: relative
+        cursor: pointer
+    &__dropdownmenu
+        display: none 
+        position: absolute
+        top: 100% 
+        left: 0
+        background-color: #333
+        padding: 20px
+        animation: growOut 300ms ease-in-out forwards
+        transform-origin: top center
+        
+    &__contact:hover .Header__dropdownmenu
+        display: block
+        
+
+            
+    &__contact .Header__dropdownmenu a
+        display: flex
+        align-items: center  
+        color: #fff
+        text-decoration: none
+        padding: 5px 0
+        white-space: nowrap
+        
+        
+
+    & > li > a
+        color: text-color 
+        text-decoration: none
+        
+        font-weight: 400
+@keyframes growOut
+    0% 
+        transform: scale(0)
+
+    80% 
+        transform: scale(1.1)
+
+    100%
+        transform: scale(1)

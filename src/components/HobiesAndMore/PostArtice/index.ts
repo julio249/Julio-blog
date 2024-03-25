@@ -1,0 +1,1 @@
+export { PostArtice } from './PostArtice'
