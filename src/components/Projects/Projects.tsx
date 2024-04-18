@@ -42,7 +42,7 @@ export const Projects = () => {
 
                 
                 <Link 
-                    href={'https://github.com/julio249/Mario/tree/main/Assigment3/a3'} 
+                    href={'https://julio249.github.io/Mario-vs-Goombas/'} 
                     className={styles.projectsSection__Item}
                     target="_blank" 
                     rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export const Projects = () => {
                         width='300'
                         height='200'
                     />
-                    <p>Mario made in Java</p>
+                    <p>Mario vs Goombas</p>
                 </Link>
 
                 <Link 
