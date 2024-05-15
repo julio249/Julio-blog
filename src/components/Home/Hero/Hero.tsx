@@ -22,7 +22,7 @@ export const Hero = () =>{
                     height='200'
                 />
             </h1>
-            <h2> Hi, thank you for visiting my personal website where I share about me. </h2>
+            <h2> Hi, I'm Julio, thank you for visiting my website where I share about me. </h2>
         </section>
     )
 }

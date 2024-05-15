@@ -31,7 +31,7 @@ export const Categories = () => {
             item.style.animationDelay = `${index * 0.5}s`; // Use style instead of styles
         });
     }, []);
-    
+
 
     return(
         <div className={styles.grid}>

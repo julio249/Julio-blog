@@ -1,40 +1,60 @@
-.Carrusel
-    align-items: center
-    justify-content: center
-    height: 90vh
-    &__container
-        display: flex
-        align-items: center
-        justify-content: center
+.carousel
 
+.carousel__container
+    overflow: hidden
+    position: relative 
+    height: 100%
+    border-color: #4b5563
+    width: 80%
+    max-width: fit-content
+    margin: 50px auto
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column 
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 300px
 
     &__subheader
         font-size: 3rem
         margin: 10rem 0
         text-align: center
-        margin-top: 300px
+        margin-top: 100px
         margin-bottom: 100px
-    &__iconBoxContainer 
-        padding: 90px 90px
-        display: flex
-        scroll-behavior: smooth
-    &__iconBox
-        flex: 0 0 auto
-        width: 150px
-        height: 150px
-        margin-right: 20px
-        background-color: rgba(0, 0, 0, 0.2)
-        border-radius: 10px
-        display: flex
-        justify-content: center
-        align-items: center
-    @media only screen and (max-width: 768px)
-        &__iconBox
-            flex: 0 0 calc(50% - 40px)
-            max-width: calc(50% - 40px)
 
-    @media only screen and (max-width: 480px)
-        &__iconBox
-            flex: 0 0 calc(100% - 40px)
-            max-width: calc(100% - 40px)
-            margin-bottom: 20px
+
+
+.carousel__subheader
+    font-size: 3rem
+    margin: 10rem 0
+    text-align: center
+    margin-top: 300px
+    margin-bottom: 100px
+.carousel__track
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%
+    gap: 16px
+    animation: slide 10s linear infinite
+    position: relative
+    width: 100%
+    &:hover
+        animation-play-state: paused
+
+@keyframes slide
+    0%
+        left: 0
+    100%
+        left: -50%
+.carousel__iconBox
+    flex: 0 0 auto
+    width: 150px
+    height: 150px
+    margin-right: 20px
+    background-color: rgba(0, 0, 0, 0.2)
+    border-radius: 10px
+    display: flex
+    justify-content: center
+    align-items: center
