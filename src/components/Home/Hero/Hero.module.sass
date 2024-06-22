@@ -1,10 +1,27 @@
 .Hero
-  & > h1
-    font-size: 7rem
-    margin: 7rem 0
-    text-align: center
-  & > h2
-    font-size: 2rem
-    margin: 0 0 3rem 0
-    text-align: center
-    color: color-secondary
+  &__container
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 20px
+    align-items: center
+    padding: 3rem
+
+  &__intro
+    font-size: 3rem
+    text-align: left
+    margin-left: 44px
+  &__welcome
+    font-size: 4rem
+    color: #FFD700
+  &__paragraph
+    font-size: 40px
+
+  &__image
+    display: flex
+    justify-content: right
+    padding: 3rem
+    margin-right: 45px
+    & img
+      border-radius: 10px
+  &__image:hover
+

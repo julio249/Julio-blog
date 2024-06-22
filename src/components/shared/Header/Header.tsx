@@ -13,11 +13,21 @@ export const Header = () => {
                         rel="noopener noreferrer"
                         className={styles.Header__Home}
                     >
-                        home
+                        Home
+                    </Link>
+                </div>
+                <div className={styles.Header__CV}>
+                    <Link 
+                        href="/CV/Resume-JulioMorales.pdf"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className={styles.Header__Home}
+                        >
+                        CV
                     </Link>
                 </div>
                 <div className={styles.Header__contact}>
-                    contact
+                    Contact
                     <div className={styles.Header__dropdownmenu}>
 
                         <Link
