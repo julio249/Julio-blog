@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={dotGothic16.className}>
-        <Analytics/>
         <Header/>
         
         {children}
+        <Analytics/>
         
         <Footer/>
       </body>
